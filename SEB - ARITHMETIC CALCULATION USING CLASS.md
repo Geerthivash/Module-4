@@ -36,10 +36,53 @@ To write a Python program to perform addition and division operations using a cl
 
 ```
 
+class saveetha:
+def setvalues(self,a,b):
 
+    self.a=a
+    
+    self.b=b
+def add(self):
+
+    print("Result: ",self.a+self.b)
+    
+def div(self):
+
+    print("Result: ",self.a//self.b)
+a=int(input())
+
+b=int(input())
+
+obj=saveetha()
+
+obj.setvalues(a,b)
+
+while True:
+
+choice=int(input())
+
+if choice==1:
+
+    obj.add()
+    
+elif choice==2:
+
+    obj.div()
+    
+elif choice==0:
+
+    print("Exiting!")
+    
+    break
+    
+else:
+
+    print("Invalid choice")
 
 ```
 
 ### OUTPUT
+<img width="427" height="347" alt="image" src="https://github.com/user-attachments/assets/99cba497-40ed-4bff-90f2-85703f29d27f" />
 
 ### RESULT
+Thus the Python program to perform addition and division operations using a class was implemented and executed successfully.
